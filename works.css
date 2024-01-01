@@ -1,0 +1,22 @@
+
+.images{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content:safe
+}
+img{
+    border: 2px solid rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+    transition:transform 0.25s ease;
+    width   : 450px;
+}
+body{
+    background-color:black
+}
+img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.2);
+}
